@@ -12,7 +12,7 @@ namespace msdf_atlas {
 
 struct ArteryFontExportProperties {
     double fontSize;
-    msdfgen::Range pxRange;
+    double pxRange;
     ImageType imageType;
     ImageFormat imageFormat;
     YDirection yDirection;
