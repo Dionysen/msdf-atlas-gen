@@ -20,7 +20,6 @@ if is_plat("linux") then
     add_packages("freetype2")
     add_includedirs("/usr/include/freetype2")
 end
-add_cxflags("/MD")
 add_cxflags("/utf-8", "/wd4828", "/wd4251", "/D_ITERATOR_DEBUG_LEVEL=0")
 add_files(
     "msdfgen/*.cpp",
